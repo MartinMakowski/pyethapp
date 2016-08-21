@@ -30,7 +30,7 @@ with codecs.open('HISTORY.rst', encoding='utf8') as history_file:
 LONG_DESCRIPTION = README + '\n\n' + HISTORY
 
 INSTALL_REQUIRES_REPLACEMENTS = {
-    'https://github.com/ethereum/ethash/tarball/master#egg=pyethash': 'pyethash',
+    'https://github.com/ethereumproject/ethash/tarball/master#egg=cethash': 'cethash',
 }
 
 INSTALL_REQUIRES = list()
@@ -50,13 +50,13 @@ INSTALL_REQUIRES = list(set(INSTALL_REQUIRES))
 version = '1.4.0'
 
 setup(
-    name='pyethapp',
+    name='cethapp',
     version=version,
-    description='Python Ethereum Client',
+    description='Python Ethereum Classic Client',
     long_description=LONG_DESCRIPTION,
     author='HeikoHeiko',
     author_email='heiko@ethdev.com',
-    url='https://github.com/ethereum/pyethapp',
+    url='https://github.com/ethereumproject/cethapp',
     packages=[
         'pyethapp',
     ],
@@ -65,7 +65,7 @@ setup(
     },
     license='BSD',
     zip_safe=False,
-    keywords='pyethapp',
+    keywords='cethapp',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
@@ -81,6 +81,6 @@ setup(
     ],
     entry_points='''
     [console_scripts]
-    pyethapp=pyethapp.app:app
+    cethapp=pyethapp.app:app
     '''
 )

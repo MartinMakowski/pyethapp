@@ -4,20 +4,20 @@ pyethapp
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
    :alt: Join the chat at https://gitter.im/ethereum/pyethapp
-   :target: https://gitter.im/ethereum/pyethapp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+   :target: https://gitter.im/ethereumproject/pyethapp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 .. image:: https://img.shields.io/travis/ethereum/pyethapp.svg
-        :target: https://travis-ci.org/ethereum/pyethapp
+        :target: https://travis-ci.org/ethereumproject/pyethapp
 
 .. image:: https://coveralls.io/repos/ethereum/pyethapp/badge.svg
-        :target: https://coveralls.io/r/ethereum/pyethapp
+        :target: https://coveralls.io/r/projectethereum/pyethapp
 
 
 .. image:: https://img.shields.io/pypi/v/pyethapp.svg
-        :target: https://pypi.python.org/pypi/pyethapp
+        :target: https://pypi.python.org/pypi/cethapp
 
-.. image:: https://readthedocs.org/projects/pyethapp/badge/?version=latest
-        :target: https://readthedocs.org/projects/pyethapp/?badge=latest
+.. image:: https://readthedocs.org/projects/cethapp/badge/?version=latest
+        :target: https://readthedocs.org/projects/cethapp/?badge=latest
 
 
 Introduction
@@ -36,8 +36,8 @@ pyethapp leverages two ethereum core components to implement the client:
 
 
 .. _Ethereum: http://ethereum.org/
-.. _pyethereum: https://github.com/ethereum/pyethereum
-.. _pydevp2p: https://github.com/ethereum/pydevp2p
+.. _pyethereum: https://github.com/ethereumproject/pyethereum
+.. _pydevp2p: https://github.com/ethereumproject/pydevp2p
 
 
 
